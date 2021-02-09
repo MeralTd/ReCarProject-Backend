@@ -12,3 +12,5 @@ C:\Users\toshıba\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Bu
 C:\Users\toshıba\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\toshıba\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\toshıba\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\toshıba\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\toshıba\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
