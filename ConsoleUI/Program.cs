@@ -1,6 +1,7 @@
 ﻿using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using Entities.Concrete;
 using System;
 
 namespace ConsoleUI
@@ -10,10 +11,21 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             //TestCarListGet();
-
-            TestGetCarDetails();
+            //TestGetCarDetails();
+            TestRentalAdd();
         }
-
+        private static void TestRentalAdd()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.Add(new Rental
+            {
+                CarId = 2,
+                CustomerId = 1,
+                RentDate = new DateTime(2021, 2, 15),
+                ReturnDate = new DateTime(2021, 3, 12)
+            });
+            Console.WriteLine(result.Message);
+        }
         private static void TestGetCarDetails()
         {
             CarManager carManager = new CarManager(new EfCarDal());
