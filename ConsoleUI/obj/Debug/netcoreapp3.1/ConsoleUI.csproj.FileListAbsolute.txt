@@ -60,3 +60,7 @@ C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\ru
 C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\toshıba\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
