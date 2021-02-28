@@ -17,7 +17,6 @@ namespace Business.Constants
         public static string RentalUpdated = "Updated Rental";
         public static string RentalsListed = "Rentals listed";
         public static string NotCarRented = "The car was not rented";
-
-
+        internal static string CarImageCountOfCarError = "The number of pictures of the car cannot be more than five.";
     }
 }
