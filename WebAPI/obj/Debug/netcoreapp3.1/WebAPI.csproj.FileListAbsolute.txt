@@ -70,3 +70,7 @@ C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autof
 C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\toshıba\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

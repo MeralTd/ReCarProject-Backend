@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -18,5 +19,6 @@ namespace Business.Constants
         public static string RentalsListed = "Rentals listed";
         public static string NotCarRented = "The car was not rented";
         internal static string CarImageCountOfCarError = "The number of pictures of the car cannot be more than five.";
+        public static string AuthorizationDenied = "You are not authorized";
     }
 }
