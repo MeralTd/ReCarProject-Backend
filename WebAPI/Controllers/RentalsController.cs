@@ -31,7 +31,7 @@ namespace WebAPI.Controllers
         }
 
 
-        [HttpGet("getrentalsdetails")]
+        [HttpGet("getrentaldetails")]
         public IActionResult GetRentalsDetails()
         {
             var result = _rentalService.GetRentalsDetails();
