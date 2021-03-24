@@ -20,6 +20,8 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from c in filter is null ? context.Cars : context.Cars.Where(filter)
                              join b in context.Brands on c.BrandId equals b.BrandId
                              join cl in context.Colors on c.ColorId equals cl.ColorId
+                             let i = context.CarImages.Where(x => x.CarId == c.Id).FirstOrDefault()
+
 
                              select new CarDetailDto
                              {
@@ -29,10 +31,14 @@ namespace DataAccess.Concrete.EntityFramework
                                  BrandName = b.BrandName,
                                  DailyPrice = c.DailyPrice,
                                  ModelYear = c.ModelYear,
+                                 ImagePath = i.ImagePath
+
 
                              };
                 return result.ToList();
             }
         }
+
+
     }
 }
