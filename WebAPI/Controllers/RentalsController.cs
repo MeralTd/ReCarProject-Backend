@@ -30,11 +30,21 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+        [HttpGet("getbycustomerid")]
+        public IActionResult GetRentalByCustomerId(int customerId)
+        {
+            var result = _rentalService.GetRentalByCustomerId(customerId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
 
         [HttpGet("getrentaldetails")]
         public IActionResult GetRentalsDetails()
         {
-            var result = _rentalService.GetRentalsDetails();
+            var result = _rentalService.GetRentalDetails();
             if (result.Success)
             {
                 return Ok(result);

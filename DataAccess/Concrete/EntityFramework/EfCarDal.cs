@@ -30,7 +30,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  DailyPrice = c.DailyPrice,
                                  ModelYear = c.ModelYear,
                                  ImagePath = context.CarImages.Where(x => x.CarId == c.Id).FirstOrDefault().ImagePath,
-
+                                 Status = !(context.Rentals.Any(r => r.CarId == c.Id && (r.ReturnDate == null || r.ReturnDate > DateTime.Now))),
 
 
                              };
