@@ -38,7 +38,7 @@ namespace ConsoleUI
             {
                 foreach (var car in result.Data)
                 {
-                    Console.WriteLine(car.CarName + "/" + car.ColorName + "/" + car.BrandName + "/" + car.DailyPrice);
+                    Console.WriteLine(car.ColorName + "/" + car.BrandName + "/" + car.DailyPrice);
 
                 }
             }
